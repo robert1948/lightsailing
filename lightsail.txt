@@ -1,3 +1,4 @@
 https://github.com/LondonAppDeveloper/tutorial-django-aws-lightsail
 
-
+docker-compose run --rm app sh -c "django-admin startproject app ."
+19:00
