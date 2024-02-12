@@ -7,3 +7,5 @@ docker-compose run --rm app sh -c "django-admin startproject app ."
 docker-compose run --rm app sh -c "python manage.py startapp publish"
 docker-compose up 
 docker-compose build
+docker build -t publish .
+docker run -p 8181:80 -e ALLOWED_HOSTS=localhost publish
