@@ -6,3 +6,4 @@ docker-compose run --rm app sh -c "django-admin startproject app ."
 19:00
 docker-compose run --rm app sh -c "python manage.py startapp publish"
 docker-compose up 
+docker-compose build
