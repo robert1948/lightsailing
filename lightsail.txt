@@ -1,4 +1,8 @@
 https://github.com/LondonAppDeveloper/tutorial-django-aws-lightsail
 
+https://github.com/robert1948/lightsailing
+
 docker-compose run --rm app sh -c "django-admin startproject app ."
 19:00
+docker-compose run --rm app sh -c "python manage.py startapp publish"
+docker-compose up 
